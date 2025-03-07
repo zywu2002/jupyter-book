@@ -7,50 +7,50 @@ project:
   id: 4da9cb15-177c-41f5-8c4e-6a24b4e87eab
   
   # 项目标题（必填，最大 500 字符）
-  title: An example Jupyter Book
+  title: Zell's Jupyter Book
   
-  # 项目副标题（可选，最大 500 字符）
-  subtitle: A practical guide to scientific writing
+  # # 项目副标题（可选，最大 500 字符）
+  # subtitle: A practical guide to scientific writing
   
   # 短标题（可选，最大 40 字符，用于导航栏等空间受限处）
-  short_title: Jupyter Book Example
+  short_title: Zell's Jupyter Book
   
-  # 项目描述（可选，最大 500 字符，用于预览或搜索引擎）
-  description: A collection of files that build up a book
+  # # 项目描述（可选，最大 500 字符，用于预览或搜索引擎）
+  # description: A collection of files that build up a book
   
-  # 关键词（可选，用于索引和搜索）
-  keywords:
-    - jupyter-book
-    - something-else
-    - scientific-writing
-    - data-science
+  # # 关键词（可选，用于索引和搜索）
+  # keywords:
+  #   - jupyter-book
+  #   - something-else
+  #   - scientific-writing
+  #   - data-science
   
   # GitHub 仓库地址（可选，支持 owner/repo 或完整 URL）
-  github: captain-jupyter/my-book
+  github: https://github.com/zywu2002/jupyter-book
   
   # 作者列表（可选，可被页面覆盖）
   authors:
-    - name: Zhang Wzy  # 作者姓名（必填）
-      orcid: 0000-0001-2345-6789  # ORCID 标识符（可选）
-      email: wzy@example.com  # 邮箱（如果是通讯作者则必填）
-      corresponding: true  # 是否为通讯作者（默认 false）
+    - name: Zell Wu  # 作者姓名（必填）
+      # orcid: 0000-0001-2345-6789  # ORCID 标识符（可选）
+      email: zywu2002@outlook.com  # 邮箱（如果是通讯作者则必填）
+      # corresponding: true  # 是否为通讯作者（默认 false）
       affiliations:
-        - id: wanglab  # 引用机构 ID
-          institution: Wang Lab University  # 机构名称
-          department: Computational Biology  # 部门（可选）
-          city: Beijing  # 城市（可选）
+      #   - id: wanglab  # 引用机构 ID
+          institution: University of Chinese Academy of Sciences  # 机构名称
+      #     department: Computational Biology  # 部门（可选）
+          city: Shanghai  # 城市（可选）
           country: China  # 国家（可选）
-      roles:  # CRediT 角色（可选）
-        - Conceptualization
-        - Writing – original draft
+      # roles:  # CRediT 角色（可选）
+      #   - Conceptualization
+      #   - Writing – original draft
   
   # 机构列表（可选，可供作者引用）
   affiliations:
-    - id: wanglab
-      institution: Wang Lab University
-      ror: https://ror.org/03rmrcq20  # 机构 ROR ID（可选）
-      address: 123 Science Road  # 地址（可选）
-      city: Beijing
+    # - id: wanglab
+      institution: University of Chinese Academy of Sciences
+      # ror: https://ror.org/03rmrcq20  # 机构 ROR ID（可选）
+      # address: 123 Science Road  # 地址（可选）
+      city: Shanghai
       country: China
   
   # 出版日期（可选，格式如 YYYY-MM-DD）
@@ -69,20 +69,20 @@ project:
   # # DOI（可选，用于已发表作品）
   # doi: 10.5281/zenodo.1234567
   
-  # 资助信息（可选）
-  funding:
-    - statement: This work was supported by Wang Lab Grant.
-      id: WL-2025-001
-      name: Computational Biology Research Fund
-      sources:
-        - name: Wang Lab University
-      recipients:
-        - name: Zhang Wzy
+  # # 资助信息（可选）
+  # funding:
+  #   - statement: This work was supported by Wang Lab Grant.
+  #     id: WL-2025-001
+  #     name: Computational Biology Research Fund
+  #     sources:
+  #       - name: Wang Lab University
+  #     recipients:
+  #       - name: Zhang Wzy
   
-  # 标签（可选，用于分类）
-  tags:
-    - tutorial
-    - jupyter
+  # # 标签（可选，用于分类）
+  # tags:
+  #   - tutorial
+  #   - jupyter
   
   # # 缩略图（可选，用于社交媒体预览）
   # thumbnail: thumbnails/cover.png
@@ -109,7 +109,7 @@ project:
   # 自动生成的目录（运行 `myst init --write-toc` 创建）
   toc:
     - file: intro.md  # 页面文件
-    - file: assmbly_singlecell_atlas.ipynb
+    # - file: assmbly_singlecell_atlas.ipynb
     # 可添加更多页面：
     # - file: chapter1.md
     # - file: chapter2.md
