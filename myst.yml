@@ -120,7 +120,8 @@ site:
   template: book-theme
   
   # # 网站选项（可选）
-  # options:
+  options:
+    code_line_numbers: true
   #   favicon: favicon.ico  # 网站图标
   #   logo: site_logo.png  # 网站标志
   #   logo_text: My Jupyter Book  # 标志旁的文本
