@@ -109,7 +109,7 @@ project:
   # 自动生成的目录（运行 `myst init --write-toc` 创建）
   toc:
     - file: intro.md  # 页面文件
-    # - file: assmbly_singlecell_atlas.ipynb
+    - file: notebook/scprinter/scprinter.ipynb
     # 可添加更多页面：
     # - file: chapter1.md
     # - file: chapter2.md
